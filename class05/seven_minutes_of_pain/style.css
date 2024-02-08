@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100px;
+    border: 3px solid black;
+    clear: both;
+}
+
+div {
+    height: 300px;
+    width: 33.3333%;
+    border: 3px solid black;
+    float: left;
+}
+
+@media screen and (max-width: 500px) {
+    div {
+        height: 200px;
+        width: 50%;
+        border: 3px solid black;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    div {
+        height: 200px;
+        width: 100%;
+        border: 3px solid black;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer, header {
+        background-color: blue;
+    }
+}

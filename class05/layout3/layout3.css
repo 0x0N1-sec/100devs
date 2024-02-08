@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100px;
+    border: 3px solid black;
+    clear: both;
+}
+
+div {
+    height: 300px;
+    border: 3px solid black;
+    float: left;
+}
+
+.one, .three, .four {
+    width: 16.6667%;
+}
+
+.two {
+    width: 50%;
+}
