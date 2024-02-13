@@ -13,97 +13,118 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<nav>
-			<img src="techcrunch-logo.png" alt="techcrunch logo">
-			<span><a href="#">Join TechCrunch+</a></span>
-			<a href="#">Login</a>
-			<ul>
-				<li><a href="#">Search</a></li>
-				<li><a href="#">Startups</a></li>
-				<li><a href="#">Audio</a></li>
-				<li><a href="#">Newsletters</a></li>
-				<li><a href="#">Videos</a></li>
-				<li><a href="#">Advertise</a></li>
-				<li><a href="#">Events</a></li>
-				<li><a href="#">More</a></li>
-			</ul>
-		</nav>
-		<main>
-			<h1>Microsoft Buys Activision Blizzard for $68.7 billion</h1>
-			<span>Amanda Silberling</span>
-			<img src="activision.png" alt="activision">
-			<span></span>
-			<ul>
-				<li>
-					<h2>Register Today for DeFi and the Future of Programmable Money Summit</h2>
-					<span>Alexandra Ames</span>
-				</li>
-				<li>
-					<img src="tc-mini.png" alt="techcrunch-plus">
-					<h2>For Investors, Future of Work Isn't Only About HR</h2>
-					<span>Anna Heim</span>
-				</li>
-				<li>
-					<h2>Upward Plans to Open a 250,000 Square-Foot Vertical Farm in PA Early Next Year</h2>
-					<span>Brian Heater</span>
-				</li>
-				<li>
-					<h2>Wayve Raises $200M Series B Led By Eclipse For Its AI For Autonomous Delivery Vehicles</h2>
-					<span>Mike Butcher</span>
-				</li>
-			</ul>
-		</main>
-		<section>
+		<div class="nav-div">
+			<nav>
+				<img src="techcrunch-logo.png" alt="techcrunch logo" class="tc-logo-first">
+				<span class="tc-span">
+					<a href="#" class="join-tc"><strong>Join TechCrunch+</strong></a>
+				</span>
+				<ul>
+					<li><a href="#" id="login-a">Login</a></li>
+					<li><br></li>
+					<li><a href="#">Search</a></li>
+					<li><a href="#">Startups</a></li>
+					<li><a href="#">Audio</a></li>
+					<li><a href="#">Newsletters</a></li>
+					<li><a href="#">Videos</a></li>
+					<li><a href="#">Advertise</a></li>
+					<li><a href="#">Events</a></li>
+					<li><a href="#">More</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="main-div">
+			<main>
+				<section class="h1-sec">
+					<h1>Microsoft Buys Activision Blizzard for $68.7 billion</h1>
+					<span id="h1-name">Amanda Silberling</span>
+					<img src="activision.png" alt="activision" class="activision">
+					<span id="second-span">The Latest</span>
+				</section>
+				<section class="ul-sec">
+					<ul>
+						<li>
+							<h2>Register Today for DeFi and the Future of Programmable Money Summit</h2>
+							<span>Alexandra Ames</span>
+						</li>
+						<hr>
+						<li>
+							<img src="tc-mini.png" alt="techcrunch-plus" id="tc-mini">
+							<h2>For Investors, Future of Work Isn't Only About HR</h2>
+							<span>Anna Heim</span>
+						</li>
+						<hr>
+						<li>
+							<h2>Upward Plans to Open a 250,000 Square-Foot Vertical Farm in PA Early Next Year</h2>
+							<span>Brian Heater</span>
+						</li>
+						<hr>
+						<li>
+							<h2>Wayve Raises $200M Series B Led By Eclipse For Its AI For Autonomous Delivery Vehicles</h2>
+							<span>Mike Butcher</span>
+						</li>
+					</ul>
+				</section>
+			</main>
+		</div>
+		<section class="section-two">
 			<h4>The Latest</h4>
+			<hr>
 			<ul>
 				<li>
-					<div>
-						<h3><a href="#">Snapchat Says Its Getting Better At Finding Illicit Drug Dealers Before Users Do</a></h3>
-						<span>Terry Hernandex</span>
-						<span>12:00:00 * January, 01, 1927</span>
-					</div>
-					<div>
-						<p>
-							Snapchat has faced increasing criticism in recent years as the opioid crisis plays out on social media,
-							often with tragic results. In October, an NBC investigation reported the stories of a number...
-						</p>
-					</div>
-					<div>
-						<img src="snapchat.png" alt="snapchat">
-					</div>
+					<ul>
+						<li>
+							<h3><a href="#">Snapchat Says Its Getting Better At Finding Illicit Drug Dealers Before Users Do</a></h3>
+							<span>Terry Hernandex</span>
+							<span>12:00:00 * January, 01, 1927</span>
+						</li>
+						<li>
+							<p>
+								Snapchat has faced increasing criticism in recent years as the opioid crisis plays out on social media,
+								often with tragic results. In October, an NBC investigation reported the stories of a number...
+							</p>
+						</li>
+						<li>
+							<img src="snapchat.png" alt="snapchat">
+						</li>
+					</ul>
 				</li>
 				<li>
-					<div>
-						<img src="tc-mini.png" alt="techcrunchplus">
-						<h3><a href="#">Will Quantum Computing Remain The Domain of the Specialist VC?</a></h3>
-						<span>Maria Lepskaya</span>
-						<span>12:00:00 * January, 01, 1927</span>
-					</div>
-					<div>
-						<p>
-							Despite all the buzz, quantum investments are still not mainstream; there were about 90 quantum investments
-							in 2021.
-						</p>
-					</div>
-					<div>
-						<img src="internal.png" alt="quantum">
-					</div>
+					<ul>
+						<li>
+							<img src="tc-mini.png" alt="techcrunchplus" id="tc-mini-two">
+							<h3><a href="#">Will Quantum Computing Remain The Domain of the Specialist VC?</a></h3>
+							<span>Maria Lepskaya</span>
+							<span>12:00:00 * January, 01, 1927</span>
+						</li>
+						<li>
+							<p>
+								Despite all the buzz, quantum investments are still not mainstream; there were about 90 quantum investments
+								in 2021.
+							</p>
+						</li>
+						<li>
+							<img src="internal.png" alt="quantum">
+						</li>
+					</ul>
 				</li>
 				<li>
-					<div>
-						<h3><a href="">Ex-Dipso Founding members Launch Roll App...</a></h3>
-						<span>Somebody's Name</span>
-						<span>12:00:00 * January, 01, 1927</span>
-					</div>
-					<div>
-						<p>
-							Today marks the launch of the Roll app which aims to create an easy way for creators to make an extra buck
-							while portraying a potentially more authentic version of themselves to their fans.
-						</p>
-					</div>
-					<div>
-						<img src="dudes-head.png" alt="dudes-head">
-					</div>
+					<ul>
+						<li>
+							<h3><a href="">Ex-Dipso Founding members Launch Roll App...</a></h3>
+							<span>Somebody's Name</span>
+							<span>12:00:00 * January, 01, 1927</span>
+						</li>
+						<li>
+							<p>
+								Today marks the launch of the Roll app which aims to create an easy way for creators to make an extra buck
+								while portraying a potentially more authentic version of themselves to their fans.
+							</p>
+						</li>
+						<li>
+							<img src="dudes-head.png" alt="dudes-head">
+						</li>
+					</ul>
 				</li>
 			</ul>
 		</section>

@@ -20,27 +20,147 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
-body {
-
-}
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-nav,main,aside{
-  float: left;
-  width: 10%;
-}
-main{
-  width: 50%;
-}
-aside{
+.tc-logo-first {
   width: 40%;
-} 
+  margin-right: 80px;
+}
+.nav-div {
+  width: 10%;
+  float: left;
+}
+
+nav span a {
+  text-decoration: none;
+  color: orange;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  padding-bottom: 20px;
+}
+
+nav ul li a {
+  color: gray;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+#login-a {
+  font-size: 12px;
+}
+
+main {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  padding-right: 300px;
+  font-size: 24px;
+}
+
+.main-div {
+  width: 89%;
+  float: left;
+}
+
+.h1-sec {
+  width: 60%;
+  float: left;
+  height: 500px;
+}
+
+#h1-name {
+  float: left;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+main section img {
+  width: 80%;
+  float: left;
+  clear: both;
+}
+
+#second-span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  float: left;
+  clear: both;
+}
+
+.ul-sec {
+  width: 40%;
+  float: left;
+  height: 500px;
+}
+
+main img {
+  width: 45%;
+}
+
+main ul {
+  font-size: 12px;
+  list-style: none;
+}
+
+main section h2 {
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+
+body > section {
+  clear: both;
+  width: 90%;
+  margin-left: 10%;
+}
+
+#tc-mini {
+  margin-top: 20px;
+  height: 15px;
+  width: 7%;
+}
+
+.section-two ul {
+  list-style: none;
+}
+
+.section-two ul > li > ul {
+  list-style: none;
+}
+
+.section-two ul > li > ul > li{
+  list-style: none;
+  display: inline-block;
+  width: 30%;
+  height: 300px;
+}
+
+.section-two ul > li > ul > li > img {
+  width: 70%;
+}
+
+.section-two ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
 
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+
+#tc-mini-two {
+  height: 15px;
+  width: 3%;
+}
+
+.section-two h3 {
+  font-size: 12px;
+}
