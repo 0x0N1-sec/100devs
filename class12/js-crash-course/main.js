@@ -45,3 +45,6 @@ const car1 = new Car("Toyota", "Corolla", 1986);
 const car2 = new Car("Mazda", "RX-7", 1991);
 
 console.log(car1.getMakeModel);
+
+
+//DOM work
