@@ -9,5 +9,5 @@ function convert() {
     //convert from C to F
     temp = temp * 9/5 + 32;
     //show it
-    document.querySelector('#ctof').innerText = temp;
+    document.querySelector('#ctof').innerText = `${temp} F`;
 }
